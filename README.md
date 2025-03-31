@@ -48,6 +48,15 @@ Podes verlo implementado y corriendo en esta imagen de docker:
 
 `docker run -p 80:80 juliananimus/virtual-queue-people-forwarder`
 
+### API
+`http://localhost/api.php?action=activate&timestamp=x&signature=x`
+> Un error de firma invalida sera mostrado pero tambien se proporcionaran datos validos para la prueba. Tenes 5 minutos para usarlos.
+
+### Prueba de redirección
+Podes usar la siguiente URL para chequear la redirección.
+
+`http://localhost/redirect.php`
+
 ## Licencia
 
 MIT
