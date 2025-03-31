@@ -1,4 +1,4 @@
-# Virtual Queue Token Verifier SDK
+# Virtual Queue People Forwarder SDK
 
 SDK para redireccionar personas a la fila virtual en caso de sobrecarga del sistema.
 
