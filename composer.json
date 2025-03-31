@@ -1,0 +1,26 @@
+{
+  "name": "virtual-queue/people-forwarder",
+  "description": "People forwarder for the queue to prevent ticket portal overload",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Julian Somoza @ Animus",
+      "email": "julian@animus.com.ar"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "VirtualQueue\\PeopleForwarder\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/animus-coop/virtual-queue-people-forwarder"
+  }
+}
